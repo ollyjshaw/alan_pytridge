@@ -1,17 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-import pytest
-from alan_pytridge.skeleton import fib
-from alan_pytridge.skeleton import Alan
-
-
-def test_fib():
-    assert fib(1) == 1
-    assert fib(2) == 1
-    assert fib(7) == 13
-    with pytest.raises(AssertionError):
-        fib(-10)
+from alan_pytridge.pint import Alan
 
 def test_nothing_found_in_empty_list():
     words = []
