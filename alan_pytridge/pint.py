@@ -5,8 +5,6 @@ class Alan:
 
     def getPhrase(self, words):
         wordsFound = [words.count(i) for i in Alan.partridge_words()]
-        exx = [ "!"*words.count(i) for i in Alan.partridge_words()]
-        print(wordsFound)
         if sum(wordsFound) != 0:
             exclaim = "!" * sum(wordsFound)
             return "Mine's a Pint" + exclaim

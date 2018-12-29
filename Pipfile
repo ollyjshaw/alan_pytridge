@@ -8,7 +8,6 @@ pylint = "*"
 pytest = "*"
 pytest-watch = "*"
 alan-pytridge = {editable = true,path = "."}
-coverage = "*"
 pytest-cov = "*"
 flake8 = "*"
 
