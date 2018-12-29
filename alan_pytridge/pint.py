@@ -12,3 +12,6 @@ class Alan:
             return "Mine's a Pint" + exclaim
         else:
             return "Lynn, I've pierced my foot on a spike!!"
+    
+    def something():
+        print ("yo")
