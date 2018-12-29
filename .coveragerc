@@ -1,0 +1,5 @@
+[run]
+source = alan_pytridge
+branch = True
+[report]
+fail_under = 100
