@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a523ee8a4d17969f26e20f5da496c1924b8336d3cea3809b842443e761348d96"
+            "sha256": "3b6a7d86059b26ae536e6b4a193ff05430d320340073f421f0647339de1d5d22"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -19,7 +19,7 @@
     "develop": {
         "alan-pytridge": {
             "editable": true,
-            "path": "./src"
+            "path": "."
         },
         "argh": {
             "hashes": [
