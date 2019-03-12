@@ -6,6 +6,10 @@ This project is attempting to give a baseline for the simplest python project wi
 * test coverage
 * continual testing
 
+## Setup your python environnment
+
+Use `pipenv` !! https://pipenv.readthedocs.io/en/latest/
+
 ## Setup the project
 
 `pipenv install --dev`
