@@ -3,11 +3,13 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
+[packages]
+alan-pytridge = {editable = true,path = "."}
+
 [dev-packages]
 pylint = "*"
 pytest = "*"
 pytest-watch = "*"
-alan-pytridge = {editable = true,path = "."}
 pytest-cov = "*"
 flake8 = "*"
 
