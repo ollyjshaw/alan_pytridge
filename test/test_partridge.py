@@ -29,3 +29,9 @@ def test_finds_multiple_partridge_words2():
     words = ["Dan", "foo", "Dan", "Lynn", "baz"]
     phrase = getPhrase(words)
     assert phrase == "Mine's a Pint!!!"
+
+
+def test_multiple_occurrences_single_word():
+    words = ["foo", "Dan", "bar", "Dan"]
+    phrase = getPhrase(words)
+    assert phrase == "Mine's a Pint!!"
